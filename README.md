@@ -1,2 +1,2 @@
-# tribute page 
+# Tribute page 
 I created this webpage to pay tribute to Emir Abdelkader El Djezairi 
