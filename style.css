@@ -1,0 +1,109 @@
+#main {
+    background-color: #ded5c4;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*title style */
+#title{
+    text-align: center;
+    padding: 20px;
+}
+#title h1 {
+    font-size: 2.5rem;
+}
+#title p {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+/* Image Style */
+#img-div{
+    background-color: #faf6e9;
+    margin: 0 15px;
+}
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+#img-caption {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* tribute-info */
+#tribute-info {
+    width: 60%;
+    margin: 0 auto;
+}
+#tribute-info h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 30px 0;
+}
+#tribute-info li {
+    padding: 15px;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.gallery {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+#photo {
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+#photo img{
+    max-width: 100%;
+    height: auto;
+}
+.quotes {
+    width: 80%;
+    margin-top: -60px;
+    padding: 12px 0;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.more {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.footer {
+    text-align: center;
+}
+
+
+@media screen  and (max-width: 1200px) {
+    .gallery {
+        flex-direction: column;
+    }
+    #photo {
+        margin-bottom: 80px;
+    }
+    #photo img{
+        display: block;
+        margin: auto;
+    }
+    #photo figcaption {
+        width: 60%;
+        margin: 10px auto;
+        
+    }
+}
