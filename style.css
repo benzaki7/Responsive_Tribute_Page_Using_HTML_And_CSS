@@ -38,7 +38,7 @@
 
 /* tribute-info */
 #tribute-info {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 #tribute-info h3 {
@@ -104,6 +104,10 @@
     #photo figcaption {
         width: 60%;
         margin: 10px auto;
-        
+    }
+}
+@media screen  and (max-width: 900px) {
+    #tribute-info {
+        width: 80%;
     }
 }
